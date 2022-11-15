@@ -5,6 +5,7 @@ Follow these instructions to work with the robot.
   git clone https://github.com/SIDDHARTH-S-001/auto_clean.git
 
 ### 2) Compile your workspace
+-
   cd ..
   -
   catkin_make
@@ -16,7 +17,7 @@ Follow these instructions to work with the robot.
   roslaunch auto_clean_description gazebo.launch lockstep:=true
 
 This will open gazebo and RVIS along with the gmapping node launched.
-###5 ) In RVIZ click the Add button (bottom left) the add a map.
+### 5) In RVIZ click the Add button (bottom left) the add a map.
    Dont forget to change the fixed frame to map (default will be base_link)
 
 ### 6) Launch Teleop twist keyboard using 
