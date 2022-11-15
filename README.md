@@ -6,12 +6,12 @@ Follow these instructions to work with the robot.
 
 ### 2) Compile your workspace
   -
-  $ cd ..
+  cd ..
   -
-  $ catkin_make
+  catkin_make
   
 ### 3) Check if the package exists in your workspace
-  $ rospack find auto_clean_description
+  rospack find auto_clean_description
   
 ### 4) Then launch the gazebo file with lockstep function (to sync sensor update rate and physics engine update rate)
   roslaunch auto_clean_description gazebo.launch lockstep:=true
