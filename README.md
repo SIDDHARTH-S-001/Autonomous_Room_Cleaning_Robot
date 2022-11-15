@@ -6,6 +6,7 @@ Follow these instructions to work with the robot.
 
 ### 2) Compile your workspace
   cd ..
+  -
   catkin_make
   
 ### 3) Check if the package exists in your workspace
