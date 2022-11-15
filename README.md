@@ -5,7 +5,7 @@ Follow these instructions to work with the robot.
   git clone https://github.com/SIDDHARTH-S-001/auto_clean.git
 
 ### 2) Compile your workspace
--
+  -
   cd ..
   -
   catkin_make
