@@ -1,24 +1,24 @@
 # auto_clean
 Follow these instructions to work with the robot.
 
-###1) Clone the repository into catkin_ws_src:
+### 1) Clone the repository into catkin_ws_src:
   git clone https://github.com/SIDDHARTH-S-001/auto_clean.git
 
-###2) Compile your workspace
+### 2) Compile your workspace
   cd ..
   catkin_make
   
-###3) Check if the package exists in your workspace
+### 3) Check if the package exists in your workspace
   rospack find auto_clean_description
   
-###4) Then launch the gazebo file with lockstep function (to sync sensor update rate and physics engine update rate)
+### 4) Then launch the gazebo file with lockstep function (to sync sensor update rate and physics engine update rate)
   roslaunch auto_clean_description gazebo.launch lockstep:=true
 
 This will open gazebo and RVIS along with the gmapping node launched.
-###5) In RVIZ click the Add button (bottom left) the add a map.
+###5 ) In RVIZ click the Add button (bottom left) the add a map.
    Dont forget to change the fixed frame to map (default will be base_link)
 
-###6) Launch Teleop twist keyboard using 
+### 6) Launch Teleop twist keyboard using 
    rosrun teleop_twist_keyboard teleop_twist_keyboard.py 
 
 
