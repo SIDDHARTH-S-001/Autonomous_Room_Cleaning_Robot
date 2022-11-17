@@ -1,0 +1,16 @@
+global_costmap:
+  global_frame: map
+  robot_base_frame: base_link
+
+  rolling_window: true # if set to false, then global costmap wont center itself with robot
+
+  update_frequency: 10.0
+  publish_frequency: 10.0 # keep it low so to reduce the computational time for larger costmaps
+  transform_tolerance: 0.5
+  static_map: false
+
+  width: 15
+  height: 15
+#  The "static_map" parameter determines whether or not the costmap should initialize itself based on a map served by the map_server. 
+# If you aren't using an existing map or map server, set the static_map parameter to false.
+ 

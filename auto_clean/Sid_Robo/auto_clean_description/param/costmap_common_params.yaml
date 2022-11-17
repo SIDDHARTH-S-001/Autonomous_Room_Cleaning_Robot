@@ -1,0 +1,19 @@
+obstacle_range: 5.0
+raytrace_range: 8.0
+
+map_topic: /map
+global_frame: map
+
+subscribe_to_updates: true
+
+#footprint: [[-0.105, -0.105], [-0.105, 0.105], [0.041, 0.105], [0.041, -0.105]]
+robot_radius: 0.175
+
+inflation_radius: 0.20
+cost_scaling_factor: 2.0
+
+map_type: costmap
+observation_sources: scan
+scan: {sensor_frame: ydlidar_X2L, data_type: LaserScan, topic: /scan, marking: true, clearing: true}
+
+always_send_full_costmap: true

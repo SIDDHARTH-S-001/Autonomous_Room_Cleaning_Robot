@@ -25,7 +25,7 @@
   </collision>
 </link>
 
-<link name="right_wheel_v1_1">
+<link name="right_wheel">
   <inertial>
     <origin xyz="-2.112893193739751e-15 -0.006249999999999922 2.7755575615628914e-17" rpy="0 0 0"/>
     <mass value="0.0714589021180024"/>
@@ -46,7 +46,7 @@
   </collision>
 </link>
 
-<link name="left_wheel_v1_1">
+<link name="left_wheel">
   <inertial>
     <origin xyz="-2.0643209364124004e-15 0.006249999999999992 6.938893903907228e-18" rpy="0 0 0"/>
     <mass value="0.0714589021180024"/>
@@ -67,7 +67,7 @@
   </collision>
 </link>
 
-<link name="front_Castor_1">
+<link name="front_Castor">
   <inertial>
     <origin xyz="0.050000000000089556 4.764556804648379e-13 -0.0243934019095119" rpy="0 0 0"/>
     <mass value="0.03957987776285164"/>
@@ -88,7 +88,7 @@
   </collision>
 </link>
 
-<link name="rear_Castor_1">
+<link name="rear_Castor">
   <inertial>
     <origin xyz="-0.04999999999991038 4.765007832752133e-13 -0.02439340190951189" rpy="0 0 0"/>
     <mass value="0.03957987776285164"/>
@@ -109,7 +109,7 @@
   </collision>
 </link>
 
-<link name="ydlidar_x4_v1_1">
+<link name="ydlidar_X2L">
   <inertial>
     <origin xyz="-0.008294099570319475 -1.0408340855860843e-17 0.035201142222790985" rpy="0 0 0"/>
     <mass value="1.1515616542314233"/>
@@ -130,7 +130,7 @@
   </collision>
 </link>
 
-<link name="right_connect_1">
+<link name="right_connect">
   <inertial>
     <origin xyz="0.06530375868067693 -0.030000000000000023 0.0016078607775464535" rpy="0 0 0"/>
     <mass value="0.00762746048900369"/>
@@ -151,7 +151,7 @@
   </collision>
 </link>
 
-<link name="left_connect_v2_1">
+<link name="left_connect">
   <inertial>
     <origin xyz="0.06530375868067693 0.02999999999999996 0.0016078607775464535" rpy="0 0 0"/>
     <mass value="0.00762746048900369"/>
@@ -172,7 +172,7 @@
   </collision>
 </link>
 
-<link name="right_brush_motor_1">
+<link name="right_brush_motor">
   <inertial>
     <origin xyz="-5.6292957953771317e-05 7.426492519901559e-05 -0.011748993662980753" rpy="0 0 0"/>
     <mass value="0.03635919927939921"/>
@@ -193,7 +193,7 @@
   </collision>
 </link>
 
-<link name="left_brush_motor_1">
+<link name="left_brush_motor">
   <inertial>
     <origin xyz="7.426492519904682e-05 5.6292957953715805e-05 -0.011641764747318109" rpy="0 0 0"/>
     <mass value="0.03635919927939921"/>
@@ -214,7 +214,7 @@
   </collision>
 </link>
 
-<link name="right_brush_1">
+<link name="right_brush">
   <inertial>
     <origin xyz="-2.9837243786801082e-15 -2.949029909160572e-17 0.0015001581078550406" rpy="0 0 0"/>
     <mass value="0.0005746028265928243"/>
@@ -235,7 +235,7 @@
   </collision>
 </link>
 
-<link name="left_brush_1">
+<link name="left_brush">
   <inertial>
     <origin xyz="-2.9698465908722937e-15 -4.163336342344337e-17 0.0015003870235176867" rpy="0 0 0"/>
     <mass value="0.0005746028265928243"/>
@@ -259,70 +259,70 @@
 <joint name="right_drive" type="continuous">
   <origin xyz="0.01725 -0.03625 0.032" rpy="0 0 0"/>
   <parent link="base_link"/>
-  <child link="right_wheel_v1_1"/>
+  <child link="right_wheel"/>
   <axis xyz="-0.0 1.0 0.0"/>
 </joint>
 
 <joint name="left_drive" type="continuous">
   <origin xyz="0.01725 0.07175 0.032" rpy="0 0 0"/>
   <parent link="base_link"/>
-  <child link="left_wheel_v1_1"/>
+  <child link="left_wheel"/>
   <axis xyz="0.0 1.0 0.0"/>
 </joint>
 
 <joint name="Rigid4" type="fixed">
   <origin xyz="0.015 0.01775 0.043" rpy="0 0 0"/>
   <parent link="base_link"/>
-  <child link="front_Castor_1"/>
+  <child link="front_Castor"/>
 </joint>
 
 <joint name="Rigid5" type="fixed">
   <origin xyz="0.015 0.01775 0.043" rpy="0 0 0"/>
   <parent link="base_link"/>
-  <child link="rear_Castor_1"/>
+  <child link="rear_Castor"/>
 </joint>
 
 <joint name="Rigid6" type="fixed">
   <origin xyz="0.015 0.01775 0.129" rpy="0 0 0"/>
   <parent link="base_link"/>
-  <child link="ydlidar_x4_v1_1"/>
+  <child link="ydlidar_X2L"/>
 </joint>
 
 <joint name="Rigid7" type="fixed">
   <origin xyz="0.015 0.01775 0.043" rpy="0 0 0"/>
   <parent link="base_link"/>
-  <child link="right_connect_1"/>
+  <child link="right_connect"/>
 </joint>
 
 <joint name="Rigid8" type="fixed">
   <origin xyz="0.015 0.01775 0.043" rpy="0 0 0"/>
   <parent link="base_link"/>
-  <child link="left_connect_v2_1"/>
+  <child link="left_connect"/>
 </joint>
 
 <joint name="Rigid9" type="fixed">
   <origin xyz="0.08 -0.03 0.01" rpy="0 0 0"/>
-  <parent link="right_connect_1"/>
-  <child link="right_brush_motor_1"/>
+  <parent link="right_connect"/>
+  <child link="right_brush_motor"/>
 </joint>
 
 <joint name="Rigid10" type="fixed">
   <origin xyz="0.08 0.03 0.01" rpy="0 0 0"/>
-  <parent link="left_connect_v2_1"/>
-  <child link="left_brush_motor_1"/>
+  <parent link="left_connect"/>
+  <child link="left_brush_motor"/>
 </joint>
 
-<joint name="right_brush" type="continuous">
+<joint name="right_brush_joint" type="continuous">
   <origin xyz="0.0 0.0 -0.042267" rpy="0 0 0"/>
-  <parent link="right_brush_motor_1"/>
-  <child link="right_brush_1"/>
+  <parent link="right_brush_motor"/>
+  <child link="right_brush"/>
   <axis xyz="0.0 0.0 -1.0"/>
 </joint>
 
-<joint name="left_brush" type="continuous">
+<joint name="left_brush_joint" type="continuous">
   <origin xyz="0.0 0.0 -0.04216" rpy="0 0 0"/>
-  <parent link="left_brush_motor_1"/>
-  <child link="left_brush_1"/>
+  <parent link="left_brush_motor"/>
+  <child link="left_brush"/>
   <axis xyz="0.0 0.0 -1.0"/>
 </joint>
 
