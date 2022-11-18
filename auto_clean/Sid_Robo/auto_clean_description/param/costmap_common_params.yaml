@@ -7,7 +7,7 @@ global_frame: map
 subscribe_to_updates: true
 
 #footprint: [[-0.105, -0.105], [-0.105, 0.105], [0.041, 0.105], [0.041, -0.105]]
-robot_radius: 0.175
+robot_radius: 0.1
 
 inflation_radius: 0.20
 cost_scaling_factor: 2.0

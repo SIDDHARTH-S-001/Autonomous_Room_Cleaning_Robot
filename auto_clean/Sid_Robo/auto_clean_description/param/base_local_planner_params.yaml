@@ -13,8 +13,8 @@ TrajectoryPlannerROS:
   acc_lim_theta: 2.5
 
 # Goal Tolerance Parameters
-  xy_goal_tolerance: 0.10
-  yaw_goal_tolerance: 0.25
+  xy_goal_tolerance: 0.20
+  yaw_goal_tolerance: 0.20
 
 # Differential-drive robot configuration
   holonomic_robot: false
@@ -26,5 +26,5 @@ TrajectoryPlannerROS:
 # Forward Simulation Parameters
   sim_time: 1.0 
   vx_samples: 10 # The number of samples to use when exploring the x velocity space
-  vtheta_samples: 20 # The number of samples to use when exploring the theta velocity space
-  sim_granularity: 0.25 # The step size, in meters, to take between points on a given trajectory
+  vtheta_samples: 10 # The number of samples to use when exploring the theta velocity space
+  sim_granularity: 0.15 # The step size, in meters, to take between points on a given trajectory
