@@ -1,7 +1,7 @@
-obstacle_range: 5.0
+obstacle_range: 3.0
 raytrace_range: 8.0
 
-map_topic: /map
+map_topic: map
 global_frame: map
 
 subscribe_to_updates: true
@@ -10,7 +10,7 @@ subscribe_to_updates: true
 robot_radius: 0.1
 
 inflation_radius: 0.20
-cost_scaling_factor: 2.0
+cost_scaling_factor: 2.5
 
 map_type: costmap
 observation_sources: scan

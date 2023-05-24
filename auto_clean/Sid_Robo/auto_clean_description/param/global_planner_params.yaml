@@ -1,0 +1,43 @@
+GlobalPlanner:
+  # The name of the planner to use
+  # planner_type: "AStar"
+  use_dijkstra: false
+  use_quadratic: false
+  use_grid_path: false
+
+  cost_factor: 2
+
+  # Maximum distance to consider when searching for a goal
+  # Increase this value to allow the planner to find a goal further away
+  # Decrease this value to reduce the time spent by the planner
+  #max_planning_time: 2.0
+
+  # Maximum distance to consider when searching for a goal
+  # Increase this value to allow the planner to find a goal further away
+  # Decrease this value to reduce the search space and speed up planning
+  #max_search_distance: 10.0
+
+  # Maximum cost allowed for a plan
+  # Increase this value to allow the planner to find a plan even if it is suboptimal
+  # Decrease this value to require the planner to find a more optimal plan
+  #max_plan_cost: 100.0
+
+  # The cost of an obstacle, used to steer the planner away from obstacles
+  # Increase this value to make the planner avoid obstacles more aggressively
+  # Decrease this value to make the planner less cautious around obstacles
+  #obstacle_cost: 5.0
+
+  # The cost of being away from the path, used to steer the planner towards the path
+  # Increase this value to make the planner follow the path more strictly
+  # Decrease this value to make the planner less sensitive to deviations from the path
+  #path_distance_bias: 0.6
+
+  # The cost of traveling along a certain direction, used to steer the planner towards a certain direction
+  # Increase this value to make the planner prefer traveling in a certain direction
+  # Decrease this value to make the planner less sensitive to traveling in a certain direction
+  #goal_distance_bias: 0.8
+
+  # The weight applied to the cost of traveling along a certain direction
+  # Increase this value to make the planner prefer traveling in a certain direction
+  # Decrease this value to make the planner less sensitive to traveling in a certain direction
+  #goal_angle_bias: 0.1
