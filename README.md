@@ -19,7 +19,7 @@ catkin_make
 <h3>SLAM</h3>
 <br>If successful, launch the gazebo file with lockstep mode set to "True" (to sync sensor update rate and physics engine update rate)</br>
 <br>This will open gazebo and RVIz with the robot spawned.</br>
-<br>![image](https://github.com/SIDDHARTH-S-001/auto_clean/assets/73553742/0becfd97-cb37-4248-91a3-3b3b2b98df72)</br>
+<br>![image](https://github.com/SIDDHARTH-S-001/auto_clean/assets/73553742/8466c3d1-34fe-4abd-8481-d35985ba7a0d)</br>
 <br>You can implementing SLAM by launch Gmapping.</br>
 
 ```
