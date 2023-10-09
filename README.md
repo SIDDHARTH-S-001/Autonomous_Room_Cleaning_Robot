@@ -6,7 +6,9 @@ Follow these instructions to work with the robot.
 
 git clone https://github.com/SIDDHARTH-S-001/auto_clean.git</br>
 cd ..
+```
 catkin_make
+```
 
   
 ### 3) Check if the package exists in your workspace
