@@ -7,7 +7,7 @@ cd {your_catkin_workspace}/src
 <br>git clone https://github.com/SIDDHARTH-S-001/auto_clean.git</br>
 <br>cd ..</br>
 <br>catkin_make</br>
-```
+  ```
   
 ### 3) Check if the package exists in your workspace
   rospack find auto_clean_description
