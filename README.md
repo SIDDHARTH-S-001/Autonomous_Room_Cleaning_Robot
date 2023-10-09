@@ -11,18 +11,27 @@ catkin_make
 ```
 
   
-### 3) Check if the package exists in your workspace
-  rospack find auto_clean_description
+<h3>Check if the package exists in your workspace</h3>
+
+```
+ rospack find auto_clean_description
+```
   
-### 4) Then launch the gazebo file with lockstep function (to sync sensor update rate and physics engine update rate)
-  roslaunch auto_clean_description gazebo.launch lockstep:=true
+<h3>If successful, launch the gazebo file with lockstep mode set to "True" (to sync sensor update rate and physics engine update rate)</h3>
+<br>This will open gazebo and RVIS along with the gmapping node launched.</br>
 
-This will open gazebo and RVIS along with the gmapping node launched.
-### 5) In RVIZ click the Add button (bottom left) the add a map.
-   Dont forget to change the fixed frame to map (default will be base_link)
+```
+roslaunch auto_clean_description gazebo.launch lockstep:=true
+```
 
-### 6) Launch Teleop twist keyboard using 
-   rosrun teleop_twist_keyboard teleop_twist_keyboard.py 
 
+<br>In RVIZ click the Add button (bottom left) the add a map.</br
+<br>Dont forget to change the fixed frame to map (default will be base_link)</br>
+
+<br>Launch Teleop twist keyboard in new terminal tab to drive the robot manually</br>
+
+```
+rosrun teleop_twist_keyboard teleop_twist_keyboard.py
+```
 
 
