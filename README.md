@@ -2,6 +2,9 @@
 
 This project is a miniature room cleaning robot. The CAD Model has been designed in Autodesk Fusion 360 and later exported as URDF using the Fusion2URDF Plugin.
 
+<h3>CAD</h3>
+<br><img width="539" alt="image" src="https://github.com/SIDDHARTH-S-001/auto_clean/assets/73553742/83394303-32b2-4dac-a4ed-0b1c758231f0"></br>
+
 Follow these instructions to work with the robot.
 
 <h3>Installation</h3>
@@ -74,4 +77,5 @@ roslaunch auto_clean_description full_coverage.launch
 
 <h2>References</h2>
 <br>https://github.com/syuntoku14/fusion2urdf/tree/master</br>
+<br>http://wiki.ros.org/navigation</br>
 <br>https://github.com/nobleo/full_coverage_path_planner</br>
