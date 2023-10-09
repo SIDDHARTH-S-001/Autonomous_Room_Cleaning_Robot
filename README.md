@@ -2,7 +2,7 @@
 Follow these instructions to work with the robot.
 
 <h3>1) Clone the repository into catkin_ws_src:</h3>
-'''
+'''ruby
   git clone https://github.com/SIDDHARTH-S-001/auto_clean.git
   '''
 
