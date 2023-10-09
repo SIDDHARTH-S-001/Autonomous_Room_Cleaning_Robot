@@ -21,7 +21,7 @@ catkin_make
 <h3>Check if the package exists in your workspace</h3>
 
 ```
- rospack find auto_clean_description
+rospack find auto_clean_description
 ```
 <h3>SLAM</h3>
 <br>If successful, launch the gazebo file with lockstep mode set to "True" (to sync sensor update rate and physics engine update rate)</br>
