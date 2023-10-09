@@ -2,13 +2,11 @@
 Follow these instructions to work with the robot.
 
 <h3>Instructions</h3>
+
 ```
 cd {your_catkin_workspace}/src
-```
 git clone https://github.com/SIDDHARTH-S-001/auto_clean.git</br>
-```
 cd ..
-```
 catkin_make
 ```
 
