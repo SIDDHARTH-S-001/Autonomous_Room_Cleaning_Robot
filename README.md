@@ -4,9 +4,9 @@ Follow these instructions to work with the robot.
 <h3>Instructions</h3>
 ```
 cd {your_catkin_workspace}/src
-git clone https://github.com/SIDDHARTH-S-001/auto_clean.git
-cd ..
-catkin_make
+<br>git clone https://github.com/SIDDHARTH-S-001/auto_clean.git</br>
+<br>cd ..</br>
+<br>catkin_make</br>
 ```
   
 ### 3) Check if the package exists in your workspace
