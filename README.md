@@ -19,7 +19,7 @@ catkin_make
 <h3>SLAM</h3>
 <br>If successful, launch the gazebo file with lockstep mode set to "True" (to sync sensor update rate and physics engine update rate)</br>
 <br>This will open gazebo and RVIz with the robot spawned.</br>
-<br>![image](https://github.com/SIDDHARTH-S-001/auto_clean/assets/73553742/0becfd97-cb37-4248-91a3-3b3b2b98df72)</br
+<br>![image](https://github.com/SIDDHARTH-S-001/auto_clean/assets/73553742/0becfd97-cb37-4248-91a3-3b3b2b98df72)</br>
 <br>You can implementing SLAM by launch Gmapping.</br>
 
 ```
@@ -34,7 +34,7 @@ roslaunch auto_clean_description gmapping,launch
 rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 ```
 <br>You should see something like this (a 2D occypancy grid map)</br>
-<br>![image](https://github.com/SIDDHARTH-S-001/auto_clean/assets/73553742/7ea6d3a3-d3fd-4e93-938c-32db87dda8ef)</br>
+<br>![image](https://github.com/SIDDHARTH-S-001/auto_clean/assets/73553742/ac4704ec-b388-449b-879e-e5ae321659ad)</br>
 <br>After you're satisfied, you can safe the map using map saver, open a new terminal tab and execute</br>
 
 ```
