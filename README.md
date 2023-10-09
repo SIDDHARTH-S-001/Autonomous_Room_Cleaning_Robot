@@ -1,6 +1,6 @@
 # auto_clean
 
-This project is a miniature room cleaning robot. The CAD Model has been designed in Autodesk Fusion 360 and later exported as URDF using the Fusion2URDF Plugin.
+This project is an autonomous room cleaning robot. The CAD Model has been designed in Autodesk Fusion 360 and later exported as URDF using the Fusion2URDF Plugin. 
 
 <h3>CAD</h3>
 <br>https://a360.co/3GqUmmx</br>
