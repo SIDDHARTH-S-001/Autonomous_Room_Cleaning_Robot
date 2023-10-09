@@ -1,8 +1,10 @@
 # auto_clean
 Follow these instructions to work with the robot.
 
-### 1) Clone the repository into catkin_ws_src:
+<h3>1) Clone the repository into catkin_ws_src:</h3>
+'''
   git clone https://github.com/SIDDHARTH-S-001/auto_clean.git
+  '''
 
 ### 2) Compile your workspace
   -
