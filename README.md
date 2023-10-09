@@ -1,4 +1,4 @@
-<img width="701" alt="image" src="https://github.com/SIDDHARTH-S-001/auto_clean/assets/73553742/45c7da36-6f1c-4fb8-99a6-475e8daac1c4"># auto_clean
+# auto_clean
 Follow these instructions to work with the robot.
 
 <h3>Installation</h3>
