@@ -1,4 +1,7 @@
 # auto_clean
+
+This project is a miniature room cleaning robot. The CAD Model has been designed in Autodesk Fusion 360 and later exported as URDF using the Fusion2URDF Plugin.
+
 Follow these instructions to work with the robot.
 
 <h3>Installation</h3>
@@ -19,8 +22,7 @@ catkin_make
 <h3>SLAM</h3>
 <br>If successful, launch the gazebo file with lockstep mode set to "True" (to sync sensor update rate and physics engine update rate)</br>
 <br>This will open gazebo and RVIz with the robot spawned.</br>
-<br>![image](https://github.com/SIDDHARTH-S-001/auto_clean/assets/73553742/8466c3d1-34fe-4abd-8481-d35985ba7a0d)</br>
-<br>You can implementing SLAM by launch Gmapping.</br>
+<br>You can implement SLAM by launch Gmapping.</br>
 
 ```
 roslaunch auto_clean_description gazebo.launch lockstep:=true
@@ -61,11 +63,15 @@ roslaunch auto_clean_description navigation.launch
 roslaunch auto_clean_description map_navigation.launch
 ```
 
+<h3>Coverage Planning</h3>
+<br>Coming to the goal of the project, which is to clean every nook and corner of an indoor environment. For this we implement coverage planning</br>
+
+```
+roslaunch auto_clean_description full_coverage.launch
+```
+<br><img width="590" alt="image" src="https://github.com/SIDDHARTH-S-001/auto_clean/assets/73553742/a272ede7-f2db-4165-83f9-e42acfd43f18"></br>
 
 
-
-
-
-
-
-
+<h2>References</h2>
+<br>https://github.com/syuntoku14/fusion2urdf/tree/master</br>
+<br>https://github.com/nobleo/full_coverage_path_planner</br>
