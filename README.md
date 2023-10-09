@@ -2,13 +2,13 @@
 Follow these instructions to work with the robot.
 
 <h3>1) Clone the repository into the src folder of your catkin workspace:</h3>
-<br> git clone https://github.com/SIDDHARTH-S-001/auto_clean.git
+<br>git clone https://github.com/SIDDHARTH-S-001/auto_clean.git
  
 ### 2) Compile your workspace
   -
   cd ..
   -
-  ```
+```
   catkin_make
 ```
   
