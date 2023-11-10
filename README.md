@@ -1,4 +1,4 @@
-# auto_clean
+# Autonomous Room Cleaning Robot
 
 This project is an autonomous room cleaning robot.
 
@@ -12,7 +12,7 @@ This project is an autonomous room cleaning robot.
 
 ```
 cd {your_catkin_workspace}/src
-git clone https://github.com/SIDDHARTH-S-001/auto_clean.git</br>
+git clone https://github.com/SIDDHARTH-S-001/auto_clean.git
 cd ..
 catkin_make
 ```
