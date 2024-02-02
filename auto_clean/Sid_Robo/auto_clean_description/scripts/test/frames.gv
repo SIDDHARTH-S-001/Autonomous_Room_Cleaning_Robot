@@ -1,0 +1,18 @@
+digraph G {
+"left_connect" -> "left_brush_motor"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "left_connect"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "front_Castor"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"odom" -> "base_link"[label=" Broadcaster: /gazebo\nAverage rate: 20.202\nBuffer length: 4.95\nMost recent transform: 197.328\nOldest transform: 192.378\n"];
+"base_link" -> "rear_Castor"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "ydlidar_X2L"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "right_connect"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"right_connect" -> "right_brush_motor"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "left_wheel"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 30.303\nBuffer length: 4.95\nMost recent transform: 197.328\nOldest transform: 192.378\n"];
+"base_link" -> "right_wheel"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 30.303\nBuffer length: 4.95\nMost recent transform: 197.328\nOldest transform: 192.378\n"];
+"left_brush_motor" -> "left_brush"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 10.204\nBuffer length: 4.9\nMost recent transform: 197.3\nOldest transform: 192.4\n"];
+"right_brush_motor" -> "right_brush"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 10.204\nBuffer length: 4.9\nMost recent transform: 197.3\nOldest transform: 192.4\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 197.346"[ shape=plaintext ] ;
+}->"odom";
+}
