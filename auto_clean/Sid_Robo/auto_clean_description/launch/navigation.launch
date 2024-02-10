@@ -12,7 +12,7 @@
   <!-- <include file="$(find auto_clean_description)/launch/amcl.launch"/> -->
 
   <!-- Mapping -->
-  <include file="$(find auto_clean_description)/launch/gmapping.launch"/>
+  <!-- <include file="$(find auto_clean_description)/launch/gmapping.launch"/> -->
 
   <!-- move_base -->
   <!--include file="$(find auto_clean_description)/launch/move_base.launch" -->
